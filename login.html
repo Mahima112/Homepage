@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="homestyle.css" />
+    <title>Womenhance | Empowering women around the world</title>
+  </head>
+  <body>
+    
+      <div class="social">
+        <a href="javascript:void(0)" class="facebook"></a>
+        <a href="javascript:void(0)" class="twitter"></a>
+        <a href="javascript:void(0)" class="googleplus"></a>
+      </div>
+    </div>
+
+    <span class="resp-info"></span>
+    <div class="container">
+      <div class="navbar">
+        <img
+          src="C:\Users\ADMIN\Downloads\WhatsApp Image 2022-02-20 at 10.54.25 AM (1).jpeg"
+          class="logo"
+        />
+        <nav>
+          <ul id="menuList">
+            <li>
+              <a href="">Homepage</a>
+              <a href="">What we offer</a>
+              <a href="">Community</a>
+              <a href="">About us</a>
+            </li>
+          </ul>
+        </nav>
+        <img
+          src="C:\Users\ADMIN\Pictures\images.png"
+          class="menu-icon"
+          onclick="togglemenu()"
+        />
+      </div>
+      <div class="row">
+        <div class="col-1">
+          <h2>Womenhance-<br />Empowering women around the world</h2>
+          <h3>Join us in our mission to end domestic violence</h3>
+          <p>Sign up to our newsletter for daily updates.</p>
+          <h4>Take a look at women in focus around the world:</h4>
+          <button type="button">
+            Read now!<img src="C:\Users\ADMIN\Pictures\images (1).png"
+          </button>
+        </div>
+        <div class="col-2">
+          <img src="C:\Users\ADMIN\Pictures\images (1).jpg" class="woman" />
+          <div class="color-box"></div>
+          <div class="social-links">
+            <img
+              src="C:\Users\ADMIN\Pictures\1509135109flat-facebook-logo-black-and-white-png.png"
+            />
+            <img src="C:\Users\ADMIN\Pictures\download.png" />
+            <img src="D:\womenhance\instagram logo.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var menuList = document.getElementById("menuList");
+      menuList.style.maxHeight = "0px";
+      function togglemenu() {
+        if (menuList.style.maxHeight == "0px") {
+          menuList.style.maxHeight = "130px";
+        } else {
+          menuList.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+
+</html>
